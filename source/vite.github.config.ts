@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import { resolve } from "node:path";
 
 export default defineConfig({
-  base: "./",
+  base: "/pathfinder-kingdom-manager/",
   plugins: [react()],
   publicDir: process.env.GITHUB_PUBLIC_DIR || "public",
   build: {
