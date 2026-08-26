@@ -1,0 +1,220 @@
+{
+  "total": 52756,
+  "verifiable": 46341,
+  "matched": 45812,
+  "matchRate": 0.9885846226883321,
+  "errorCount": 6936,
+  "errorTypes": {
+    "CYCLE": 4987,
+    "NA": 1949
+  },
+  "errorSamples": {
+    "CYCLE": [
+      {
+        "address": "Overall!R4C18",
+        "source": "of:=20+[.J4]+[City_Overview.E27]",
+        "converted": "=20+J4+'City_Overview'!E27",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R4C22",
+        "source": "of:=[Kingdom.D4]+[City_1.$D$4]+[City_2.$D$4]+[City_3.$D$4]+[City_4.$D$4]+[City_5.$D$4]+[City_6.$D$4]+[City_7.$D$4]+[City_8.$D$4]+[City_9.$D$4]+[City_10.$D$4]+[City_11.$D$4]+[City_12.$D$4]+[City_13.$D$4]+[City_14.$D$4]+[City_15.$D$4]+[City_16.$D$4]+[City_17.$D$4]+[City_18.$D$4]+[City_19.$D$4]+[City_20.$D$4]+[City_21.$D$4]+[City_22.$D$4]+[City_23.$D$4]+[City_24.$D$4]+[City_25.$D$4]",
+        "converted": "='Kingdom'!D4+'City_1'!$D$4+'City_2'!$D$4+'City_3'!$D$4+'City_4'!$D$4+'City_5'!$D$4+'City_6'!$D$4+'City_7'!$D$4+'City_8'!$D$4+'City_9'!$D$4+'City_10'!$D$4+'City_11'!$D$4+'City_12'!$D$4+'City_13'!$D$4+'City_14'!$D$4+'City_15'!$D$4+'City_16'!$D$4+'City_17'!$D$4+'City_18'!$D$4+'City_19'!$D$4+'City_20'!$D$4+'City_21'!$D$4+'City_22'!$D$4+'City_23'!$D$4+'City_24'!$D$4+'City_25'!$D$4",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R12C8",
+        "source": "of:=[.X60]+[.X62]+[.X58]+[Endowment.J34]+[.X64]",
+        "converted": "=X60+X62+X58+'Endowment'!J34+X64",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R16C4",
+        "source": "of:=[.F16]+[.Z16]+[.AB16]",
+        "converted": "=F16+Z16+AB16",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R16C6",
+        "source": "of:=[City_1.AA2]+[City_2.AA2]+[City_3.AA2]+[City_4.AA2]+[City_5.AA2]+[City_6.AA2]+[City_7.AA2]+[City_8.AA2]+[City_9.AA2]+[City_10.AA2]+[City_11.AA2]+[City_12.AA2]+[City_13.AA2]+[City_14.AA2]+[City_15.AA2]+[City_16.AA2]+[City_17.AA2]+[City_18.AA2]+[City_19.AA2]+[City_20.AA2]+[City_21.AA2]+[City_22.AA2]+[City_23.AA2]+[City_24.AA2]+[City_25.AA2]+INT(([City_Overview.L27]+[City_Overview.M27])/10)",
+        "converted": "='City_1'!AA2+'City_2'!AA2+'City_3'!AA2+'City_4'!AA2+'City_5'!AA2+'City_6'!AA2+'City_7'!AA2+'City_8'!AA2+'City_9'!AA2+'City_10'!AA2+'City_11'!AA2+'City_12'!AA2+'City_13'!AA2+'City_14'!AA2+'City_15'!AA2+'City_16'!AA2+'City_17'!AA2+'City_18'!AA2+'City_19'!AA2+'City_20'!AA2+'City_21'!AA2+'City_22'!AA2+'City_23'!AA2+'City_24'!AA2+'City_25'!AA2+FLOOR(('City_Overview'!L27+'City_Overview'!M27)/10,1)",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R20C4",
+        "source": "of:=[.F20]+[.P20]+[.X20]+[.Z20]+[.AB20]",
+        "converted": "=F20+P20+X20+Z20+AB20",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R20C6",
+        "source": "of:=[City_Overview.H29]",
+        "converted": "='City_Overview'!H29",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R22C4",
+        "source": "of:=[.F22]+[.P22]+[.X22]+[.Z22]+[.AB22]",
+        "converted": "=F22+P22+X22+Z22+AB22",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R22C6",
+        "source": "of:=[City_Overview.I29]",
+        "converted": "='City_Overview'!I29",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R24C4",
+        "source": "of:=[.F24]+[.P24]+[.X24]+[.Z24]+[.AB24]",
+        "converted": "=F24+P24+X24+Z24+AB24",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R24C6",
+        "source": "of:=[City_Overview.K29]",
+        "converted": "='City_Overview'!K29",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R26C4",
+        "source": "of:=[.F26]+[.P26]+[.X26]+[.Z26]+[.AB26]",
+        "converted": "=F26+P26+X26+Z26+AB26",
+        "cached": "#N/A"
+      }
+    ],
+    "NA": [
+      {
+        "address": "Overall!R10C4",
+        "source": "of:=[.F10]+[.H10]+[.J10]+[.L10]+[.N10]+[.P10]+[.R10]+[.T10]+[.Z10]+[.AB10]+[.V10]",
+        "converted": "=F10+H10+J10+L10+N10+P10+R10+T10+Z10+AB10+V10",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R10C6",
+        "source": "of:=[City_1.D6]+[City_2.D6]+[City_3.D6]+[City_4.D6]+[City_5.D6]+[City_6.D6]+[City_7.D6]+[City_8.D6]+[City_9.D6]+[City_10.D6]+[City_11.D6]+[City_12.D6]+[City_13.D6]+[City_14.D6]+[City_15.D6]+[City_16.D6]+[City_17.D6]+[City_18.D6]+[City_19.D6]+[City_20.D6]+[City_21.D6]+[City_22.D6]+[City_23.D6]+[City_24.D6]+[City_25.D6]",
+        "converted": "='City_1'!D6+'City_2'!D6+'City_3'!D6+'City_4'!D6+'City_5'!D6+'City_6'!D6+'City_7'!D6+'City_8'!D6+'City_9'!D6+'City_10'!D6+'City_11'!D6+'City_12'!D6+'City_13'!D6+'City_14'!D6+'City_15'!D6+'City_16'!D6+'City_17'!D6+'City_18'!D6+'City_19'!D6+'City_20'!D6+'City_21'!D6+'City_22'!D6+'City_23'!D6+'City_24'!D6+'City_25'!D6",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R10C12",
+        "source": "of:=IF([.N58]=[.B10];[.L58];0)+(IF([.N36]=[.B10];[.L36];0)+IF([.P36]=[.B10];[.L36];0)+IF([.R36]=[.B10];[.L36];0))+(IF([.N38]=[.B10];[.L38];0)+IF([.P38]=[.B10];[.L38];0)+IF([.R38]=[.B10];[.L38];0))+[.L52]+[.L54]+[.L60]+[.L62]",
+        "converted": "=IF(N58=B10,L58,0)+(IF(N36=B10,L36,0)+IF(P36=B10,L36,0)+IF(R36=B10,L36,0))+(IF(N38=B10,L38,0)+IF(P38=B10,L38,0)+IF(R38=B10,L38,0))+L52+L54+L60+L62",
+        "cached": "0"
+      },
+      {
+        "address": "Overall!R12C4",
+        "source": "of:=[.F12]+[.H12]+[.J12]+[.L12]+[.N12]+[.P12]+[.R12]+[.T12]+[.Z12]+[.AB12]",
+        "converted": "=F12+H12+J12+L12+N12+P12+R12+T12+Z12+AB12",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R12C6",
+        "source": "of:=[City_1.D8]+[City_2.D8]+[City_3.D8]+[City_4.D8]+[City_5.D8]+[City_6.D8]+[City_7.D8]+[City_8.D8]+[City_9.D8]+[City_10.D8]+[City_11.D8]+[City_12.D8]+[City_13.D8]+[City_14.D8]+[City_15.D8]+[City_16.D8]+[City_17.D8]+[City_18.D8]+[City_19.D8]+[City_20.D8]+[City_21.D8]+[City_22.D8]+[City_23.D8]+[City_24.D8]+[City_25.D8]",
+        "converted": "='City_1'!D8+'City_2'!D8+'City_3'!D8+'City_4'!D8+'City_5'!D8+'City_6'!D8+'City_7'!D8+'City_8'!D8+'City_9'!D8+'City_10'!D8+'City_11'!D8+'City_12'!D8+'City_13'!D8+'City_14'!D8+'City_15'!D8+'City_16'!D8+'City_17'!D8+'City_18'!D8+'City_19'!D8+'City_20'!D8+'City_21'!D8+'City_22'!D8+'City_23'!D8+'City_24'!D8+'City_25'!D8",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R12C12",
+        "source": "of:=IF([.N58]=[.B12];[.L58];0)+(IF([.N36]=[.B12];[.L36];0)+IF([.P36]=[.B12];[.L36];0)+IF([.R36]=[.B12];[.L36];0))+(IF([.N38]=[.B12];[.L38];0)+IF([.P38]=[.B12];[.L38];0)+IF([.R38]=[.B12];[.L38];0))+[.L40]+[.L42]+[.L48]+[.L56]+[.L64]",
+        "converted": "=IF(N58=B12,L58,0)+(IF(N36=B12,L36,0)+IF(P36=B12,L36,0)+IF(R36=B12,L36,0))+(IF(N38=B12,L38,0)+IF(P38=B12,L38,0)+IF(R38=B12,L38,0))+L40+L42+L48+L56+L64",
+        "cached": "0"
+      },
+      {
+        "address": "Overall!R14C4",
+        "source": "of:=[.F14]+[.H14]+[.J14]+[.L14]+[.N14]+[.P14]+[.R14]+[.T14]+[.Z14]+[.AB14]+[.V14]",
+        "converted": "=F14+H14+J14+L14+N14+P14+R14+T14+Z14+AB14+V14",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R14C6",
+        "source": "of:=[City_1.D10]+[City_2.D10]+[City_3.D10]+[City_4.D10]+[City_5.D10]+[City_6.D10]+[City_7.D10]+[City_8.D10]+[City_9.D10]+[City_10.D10]+[City_11.D10]+[City_12.D10]+[City_13.D10]+[City_14.D10]+[City_15.D10]+[City_16.D10]+[City_17.D10]+[City_18.D10]+[City_19.D10]+[City_20.D10]+[City_21.D10]+[City_22.D10]+[City_23.D10]+[City_24.D10]+[City_25.D10]",
+        "converted": "='City_1'!D10+'City_2'!D10+'City_3'!D10+'City_4'!D10+'City_5'!D10+'City_6'!D10+'City_7'!D10+'City_8'!D10+'City_9'!D10+'City_10'!D10+'City_11'!D10+'City_12'!D10+'City_13'!D10+'City_14'!D10+'City_15'!D10+'City_16'!D10+'City_17'!D10+'City_18'!D10+'City_19'!D10+'City_20'!D10+'City_21'!D10+'City_22'!D10+'City_23'!D10+'City_24'!D10+'City_25'!D10",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R14C12",
+        "source": "of:=IF([.N58]=[.B14];[.L58];0)+(IF([.N36]=[.B14];[.L36];0)+IF([.P36]=[.B14];[.L36];0)+IF([.R36]=[.B14];[.L36];0))+(IF([.N38]=[.B14];[.L38];0)+IF([.P38]=[.B14];[.L38];0)+IF([.R38]=[.B14];[.L38];0))+[.L44]+[.L46]+[.L50]",
+        "converted": "=IF(N58=B14,L58,0)+(IF(N36=B14,L36,0)+IF(P36=B14,L36,0)+IF(R36=B14,L36,0))+(IF(N38=B14,L38,0)+IF(P38=B14,L38,0)+IF(R38=B14,L38,0))+L44+L46+L50",
+        "cached": "0"
+      },
+      {
+        "address": "Overall!R18C4",
+        "source": "of:=[.F18]+[.Z18]+[.AB18]",
+        "converted": "=F18+Z18+AB18",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R18C6",
+        "source": "of:=[City_1.AA4]+[City_2.AA4]+[City_3.AA4]+[City_4.AA4]+[City_5.AA4]+[City_6.AA4]+[City_7.AA4]+[City_8.AA4]+[City_9.AA4]+[City_10.AA4]+[City_11.AA4]+[City_12.AA4]+[City_13.AA4]+[City_14.AA4]+[City_15.AA4]+[City_16.AA4]+[City_17.AA4]+[City_18.AA4]+[City_19.AA4]+[City_20.AA4]+[City_21.AA4]+[City_22.AA4]+[City_23.AA4]+[City_24.AA4]+[City_25.AA4]+INT(([City_Overview.I27]+[City_Overview.H27])/10)",
+        "converted": "='City_1'!AA4+'City_2'!AA4+'City_3'!AA4+'City_4'!AA4+'City_5'!AA4+'City_6'!AA4+'City_7'!AA4+'City_8'!AA4+'City_9'!AA4+'City_10'!AA4+'City_11'!AA4+'City_12'!AA4+'City_13'!AA4+'City_14'!AA4+'City_15'!AA4+'City_16'!AA4+'City_17'!AA4+'City_18'!AA4+'City_19'!AA4+'City_20'!AA4+'City_21'!AA4+'City_22'!AA4+'City_23'!AA4+'City_24'!AA4+'City_25'!AA4+FLOOR(('City_Overview'!I27+'City_Overview'!H27)/10,1)",
+        "cached": "#N/A"
+      },
+      {
+        "address": "Overall!R36C4",
+        "source": "of:=IF([.$H36]<>\"\";IF(VLOOKUP([.$H36];[Rulers.$B$4:.$G$55];5;0)<>\"\";VLOOKUP([.$H36];[Rulers.$B$4:.$G$55];5;0);IF(VLOOKUP([.$H36];[Rulers.$B$4:.$G$55];3;0)<>\"\";VLOOKUP([.$H36];[Rulers.$B$4:.$G$55];3;0);\"\"));\"\")",
+        "converted": "=IF($H36<>\"\",IF(VLOOKUP($H36,'Rulers'!$B$4:$G$55,5,0)<>\"\",VLOOKUP($H36,'Rulers'!$B$4:$G$55,5,0),IF(VLOOKUP($H36,'Rulers'!$B$4:$G$55,3,0)<>\"\",VLOOKUP($H36,'Rulers'!$B$4:$G$55,3,0),\"\")),\"\")",
+        "cached": ""
+      }
+    ]
+  },
+  "mismatchSamples": [
+    {
+      "address": "Overall!R10C20",
+      "source": "of:=IF([.H52]=0;-4;0)+IF([.H54]=0;-4;0)+IF([.H58]=0;-4;0)+IF([.H60]=0;-4;0)",
+      "converted": "=IF(H52=0,-4,0)+IF(H54=0,-4,0)+IF(H58=0,-4,0)+IF(H60=0,-4,0)",
+      "expected": -16,
+      "got": 0
+    },
+    {
+      "address": "Overall!R12C20",
+      "source": "of:=IF([.H42]=0;-2;0)+IF([.H44]=0;-4;0)+IF([.H50]=0;-2;0)+IF([.H64]=0;-2;0)",
+      "converted": "=IF(H42=0,-2,0)+IF(H44=0,-4,0)+IF(H50=0,-2,0)+IF(H64=0,-2,0)",
+      "expected": -10,
+      "got": 0
+    },
+    {
+      "address": "Overall!R14C20",
+      "source": "of:=IF([.H46]=0;-2;0)+IF([.H50]=0;-2;0)+IF([.H64]=0;-2;0)",
+      "converted": "=IF(H46=0,-2,0)+IF(H50=0,-2,0)+IF(H64=0,-2,0)",
+      "expected": -6,
+      "got": 0
+    },
+    {
+      "address": "Overall!R42C16",
+      "source": "of:=IF((IF(OR([.H36]<>0;[.H38]<>0;[.H40]<>0;[.H48]<>0);0;4)+IF([.H42]=0;1;0)+IF([.H50]=0;1;0)+IF([.H58]=0;1;0))<0;0;CONCATENATE(\"+\";(IF(OR([.H36]<>0;[.H38]<>0;[.H40]<>0;[.H48]<>0);0;4)+IF([.H42]=0;1;0)+IF([.H50]=0;1;0)+IF([.H58]=0;1;0))))",
+      "converted": "=IF((IF(OR(H36<>0,H38<>0,H40<>0,H48<>0),0,4)+IF(H42=0,1,0)+IF(H50=0,1,0)+IF(H58=0,1,0))<0,0,CONCATENATE(\"+\",(IF(OR(H36<>0,H38<>0,H40<>0,H48<>0),0,4)+IF(H42=0,1,0)+IF(H50=0,1,0)+IF(H58=0,1,0))))",
+      "expected": 7,
+      "got": "+0"
+    },
+    {
+      "address": "Trade_Routes!R4C23",
+      "source": "of:=IF([.D4]<>0;IF([.D4]=[.AB4];1;IF([.D4]=[.AF4];1;IF([.D4]=[.AJ4];1;IF([.D4]=[.AN4];1;IF(([Kingdom.$D$54]+[Kingdom.$D$56]+[Kingdom.$D$64]+[Kingdom.$D$66])>0;1;\"\"))))))",
+      "converted": "=IF(D4<>0,IF(D4=AB4,1,IF(D4=AF4,1,IF(D4=AJ4,1,IF(D4=AN4,1,IF(('Kingdom'!$D$54+'Kingdom'!$D$56+'Kingdom'!$D$64+'Kingdom'!$D$66)>0,1,\"\"))))))",
+      "expected": "FALSO",
+      "got": false
+    },
+    {
+      "address": "Trade_Routes!R6C23",
+      "source": "of:=IF([.D6]<>0;IF([.D6]=[.AB6];1;IF([.D6]=[.AF6];1;IF([.D6]=[.AJ6];1;IF([.D6]=[.AN6];1;IF(([Kingdom.$D$54]+[Kingdom.$D$56]+[Kingdom.$D$64]+[Kingdom.$D$66])>0;1;\"\"))))))",
+      "converted": "=IF(D6<>0,IF(D6=AB6,1,IF(D6=AF6,1,IF(D6=AJ6,1,IF(D6=AN6,1,IF(('Kingdom'!$D$54+'Kingdom'!$D$56+'Kingdom'!$D$64+'Kingdom'!$D$66)>0,1,\"\"))))))",
+      "expected": "FALSO",
+      "got": false
+    },
+    {
+      "address": "Trade_Routes!R8C23",
+      "source": "of:=IF([.D8]<>0;IF([.D8]=[.AB8];1;IF([.D8]=[.AF8];1;IF([.D8]=[.AJ8];1;IF([.D8]=[.AN8];1;IF(([Kingdom.$D$54]+[Kingdom.$D$56]+[Kingdom.$D$64]+[Kingdom.$D$66])>0;1;\"\"))))))",
+      "converted": "=IF(D8<>0,IF(D8=AB8,1,IF(D8=AF8,1,IF(D8=AJ8,1,IF(D8=AN8,1,IF(('Kingdom'!$D$54+'Kingdom'!$D$56+'Kingdom'!$D$64+'Kingdom'!$D$66)>0,1,\"\"))))))",
+      "expected": "FALSO",
+      "got": false
+    },
+    {
+      "address": "Trade_Routes!R10C23",
+      "source": "of:=IF([.D10]<>0;IF([.D10]=[.AB10];1;IF([.D10]=[.AF10];1;IF([.D10]=[.AJ10];1;IF([.D10]=[.AN10];1;IF(([Kingdom.$D$54]+[Kingdom.$D$56]+[Kingdom.$D$64]+[Kingdom.$D$66])>0;1;\"\"))))))",
+      "converted": "=IF(D10<>0,IF(D10=AB10,1,IF(D10=AF10,1,IF(D10=AJ10,1,IF(D10=AN10,1,IF(('Kingdom'!$D$54+'Kingdom'!$D$56+'Kingdom'!$D$64+'Kingdom'!$D$66)>0,1,\"\"))))))",
+      "expected": "FALSO",
+      "got": false
+    }
+  ],
+  "generatedAt": "2026-08-26T11:13:08.675Z"
+}

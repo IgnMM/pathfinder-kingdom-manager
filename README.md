@@ -1,11 +1,11 @@
 # Pathfinder Kingdom Manager
 
-Webapp para gestionar reinos de Pathfinder 1e, basada en Kingdom Sheet.
+Aplicación web independiente para gestionar reinos y campañas de Pathfinder 1e.
 
-## Uso
+Incluye la conversión completa de Kingdom Sheet: 59 hojas, 52.756 fórmulas, catálogos de edificios y mejoras, ciudades, ejércitos, perfiles de campaña y copias de seguridad mediante importación y exportación.
 
-La aplicación guarda automáticamente cada campaña en el navegador. Permite crear y duplicar perfiles, además de exportar e importar copias de seguridad en formato JSON.
+## Aplicación
 
-## Publicación
+https://ignmm.github.io/pathfinder-kingdom-manager/
 
-Este repositorio está preparado para GitHub Pages desde la rama `main` y la carpeta raíz.
+Los datos se guardan localmente en el dispositivo del usuario. No requiere cuenta de ChatGPT ni servidor externo.

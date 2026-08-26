@@ -5,7 +5,7 @@ import { resolve } from "node:path";
 export default defineConfig({
   base: "./",
   plugins: [react()],
-  publicDir: "public",
+  publicDir: process.env.GITHUB_PUBLIC_DIR || "public",
   build: {
     outDir: "github-dist",
     emptyOutDir: true,
